@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Kiss Mihály</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Rowdies:wght@300;400;700&display=swap"
+          rel="stylesheet"
+  />
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  />
+</head>
+<body>
+<!-- Container -->
+<div class="container">
+  <!-- Navigation -->
+  <div class="menu-icon">
+    <div class="line line-1"></div>
+    <div class="line line-2"></div>
+  </div>
+  <nav class="navigation">
+    <div class="section-border"></div>
+    <div class="nav-items">
+      <a href="#">Home</a>
+      <a href="#scroll2">Projects</a>
+    </div>
+  </nav>
+  <!-- End of Navigation -->
+
+  <!-- Landing -->
+  <section class="landing">
+    <h1 class="section-bg-heading">---------------</h1>
+    <div class="logo">
+      <span>Kiss Mihály</span>
+      <span></span>
+    </div>
+    <div class="banner">
+      <div class="section-border"></div>
+      <div class="developer-info">
+        <h3 class="greeting">Hello, <span>my name is</span></h3>
+        <h1 class="name"><span>Kiss</span> Mihály</h1>
+        <h3 class="prof">I am a student at University Of Szeged</h3>
+        <h3 class="prof">
+          Learning Computer Science, Artificial Intelligence specialisation.<br><hr>
+          My long term goals are: To be a Data engineer, or any data/AI related specialist<br>
+          <hr>
+          Linkedin:
+        </h3>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/mihaly-kiss/" class="fa-brands fa-linkedin" target="_blank"></a>
+        </div>
+        <div class="cv">
+          <button type="button" onclick="window.open('cv.pdf')" class="btn cv-btn" id="downloadButton">Download cv</button>
+          <span>My Skills</span>
+        </div>
+      </div>
+      <div class="developer-img">
+        <div class="dev-img-wrapper">
+          <img src="img/IMG_2216.jpeg" />
+        </div>
+
+        <div class="dev-projects dev-work" id="scroll1">
+          <span>2</span>
+          <span>completed projects</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Landing -->
+
+  <!-- Projects -->
+  <section class="projects" id="scroll2">
+    <h1 class="section-bg-heading">My Projects</h1>
+    <h1 class="section-heading">Portfolio</h1>
+    <h3 class="sub-heading">My Projects</h3>
+    <div class="projects-cards">
+      <div class="project-card" onclick="window.open('https://github.com/Qrydka2/DogorCat.git')">
+        <div class="project-img">
+          <img src="img/project1.jpeg" />
+        </div>
+        <div class="techs">
+          <span>Python,</span>
+          <span>KNN</span>
+        </div>
+        <h3 class="project-name">Dog Or Cat AI</h3>
+        <p class="project-desc">
+          This is a Python program. The user have to upload one picture, and the KNN based AI decides if it is a cat, or a dog in the picture. If you want to test it: click on see project and run KNNDOC.py. Trained on 20.000 pictures.
+        </p>
+        <button type="button" onclick="window.open('https://github.com/Qrydka2/DogorCat.git')" class="project-btn">
+          See Project <i class="fa-sharp fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="project-card">
+        <div class="project-img">
+          <img src="img/project1.jpeg" />
+        </div>
+        <div class="techs">
+          <span>---,</span>
+          <span>---,</span>
+          <span>---</span>
+        </div>
+        <h3 class="project-name">---</h3>
+        <p class="project-desc">
+          ---
+        </p>
+        <button type="button" class="project-btn">
+          See Project <i class="fa-sharp fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+    <div class="section-border"></div>
+  </section>
+  <!-- End of Projects -->
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <div class="copyright">
+      <p>&copy; Kiss Mihály. All Rights Reserved. 2023</p>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+</div>
+<!-- End of Container -->
+
+<script src="script.js"></script>
+</body>
+</html>

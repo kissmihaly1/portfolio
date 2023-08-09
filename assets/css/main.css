@@ -855,3 +855,32 @@ body.is-loading #main {
 body.is-ie #wrapper {
     height: 100%;
 }
+
+#project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    flex: 0 1 calc(33.33% - 20px);
+    margin: 0 10px 20px 0;
+    padding: 20px;
+    background-color: #d3d0d0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+
+
+.project h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.project p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
